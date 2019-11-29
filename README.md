@@ -24,7 +24,7 @@ a walkable path to a goal tile.
 ![Image of Q-learning code](https://developer.ibm.com/developer/articles/cc-reinforcement-learning-train-software-agent/images/fig03.png)
 
 ### The algorithm 
-1- Initialize the decaying epsilon (i.e we will divide num of episodes passed) with 1    
+1- Initialize the decaying epsilon (i.e we will divide num of episodes passed) with 1, the learning rate and the discount factor    
 2- Initialize the Q-table, the rows equal the number of the states while the columns equal the number of actions  
 3- Get a random number, if it's smaller than epsilon, the agent will do exploration, else, it will do exploitation. Exploration gets a random action given a state represented by a certain row, exploitation gets the maximum action given that row    
 4- Get the next-state, the reward, and if the episode is finished after performing the calculated action  
