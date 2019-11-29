@@ -18,5 +18,5 @@ and others lead to the agent falling into the water. Additionally, the movement 
 is uncertain and only partially depends on the chosen direction. The agent is rewarded for finding   
 a walkable path to a goal tile.
 
-![Image of Frozen Lake Environment]
+![Image of Frozen-Lake]
 (https://analyticsindiamag.com/wp-content/uploads/2018/03/Frozen-Lake.png)
