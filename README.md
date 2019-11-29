@@ -8,8 +8,9 @@
 Winter is here. You and your friends were tossing around a frisbee at the park when you made a wild throw that   
 left the frisbee out in the middle of the lake. The water is mostly frozen, but there are a few holes where   
 the ice has melted. If you step into one of those holes, you'll fall into the freezing water. At this time,   
-there's an international frisbee shortage, so it's absolutely imperative that you navigate across the lake   
-and retrieve the disc. However, the ice is slippery, so you won't always move in the direction you intend.    
+there's an international frisbee shortage, so it's absolutely imperative that you navigate across the   
+lake and retrieve the disc. However, the ice is slippery, so you won't always move in the   
+direction you intend.    
 
 
 ## FrozenLake-v0
