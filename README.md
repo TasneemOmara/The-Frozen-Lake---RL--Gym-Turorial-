@@ -20,7 +20,7 @@ a walkable path to a goal tile.
 ![Image of Frozen-Lake](https://analyticsindiamag.com/wp-content/uploads/2018/03/Frozen-Lake.png)
 
 
-## Q-learning 
+## Q-learning equation  
 ![Image of Q-learning code](https://developer.ibm.com/developer/articles/cc-reinforcement-learning-train-software-agent/images/fig03.png)
 
 ### The algorithm 
