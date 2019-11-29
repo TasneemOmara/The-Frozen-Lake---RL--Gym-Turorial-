@@ -1,4 +1,4 @@
-# The-Frozen-Lake-QLearning
+# The FrozenLake problem using QLearning
 
 ## This Repository is based on:  
 1- OpenAI gym: https://gym.openai.com/envs/FrozenLake-v0/  
