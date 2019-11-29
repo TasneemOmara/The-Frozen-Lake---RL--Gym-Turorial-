@@ -18,3 +18,18 @@ is uncertain and only partially depends on the chosen direction. The agent is re
 a walkable path to a goal tile.
 
 ![Image of Frozen-Lake](https://analyticsindiamag.com/wp-content/uploads/2018/03/Frozen-Lake.png)
+
+
+## Q-learning 
+![Image of Q-learning code](https://developer.ibm.com/developer/articles/cc-reinforcement-learning-train-software-agent/images/fig03.png)
+
+### The algorithm 
+1- Initialize the decaying epsilon (i.e we will divide num of episodes passed) with 1    
+2- Initialize the Q-table, the rows equal the number of the states while the columns equal the number of actions  
+3- Get a random number, if it's smaller than epsilon, the agent will do exploration, else, it will do exploitation. Exploration gets a random action given a state represented by a certain row, exploitation gets the maximum action given that row    
+4- Get the next-state, the reward, and if the episode is finished after performing the calculated action  
+5- Save the old value given the past state and the action  
+6- Get the maximum Q-value in the next-state   
+7- Update the new value using the Q-learning equation  
+8- Update the old value with the new value in the Q-table   
+9- Update epsilon, and exit the loop when the episode is finished   
